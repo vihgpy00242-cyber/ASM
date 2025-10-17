@@ -13,7 +13,7 @@
         <div class="container">
             <div class="logo">V <span>News</span></div>
             <nav class="menu">
-                <a href="index.jsp">Xem trang chính</a>
+                <a href="${pageContext.request.contextPath}/home">Xem trang chính</a>
                 <a href="admin.jsp" class="active">Quản trị</a>
             </nav>
             <div class="header-actions">

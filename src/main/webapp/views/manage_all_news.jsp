@@ -13,7 +13,7 @@
         <div class="container">
             <div class="logo">V <span>News</span></div>
             <nav class="menu">
-                <a href="index.jsp">Xem trang chính</a>
+                <a href="${pageContext.request.contextPath}/home">Xem trang chính</a>
                 <a href="admin.jsp" class="active">Quản trị</a>
             </nav>
             <div class="header-actions">
@@ -24,7 +24,7 @@
 
     <main class="container">
         <h1 class="page-title">Quản lý tất cả bài viết</h1>
-        <a href="edit_news.jsp" class="btn btn-primary" style="margin-bottom: 20px;">Thêm bài viết mới</a>
+        <a href="edit_news.jsp" class="add-news-btn" style="margin-bottom: 20px;">Thêm bài viết mới</a>
         <table class="news-table">
             <thead>
                 <tr>
